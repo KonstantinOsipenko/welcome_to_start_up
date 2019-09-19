@@ -1,0 +1,86 @@
+.flex_column_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tittle_section h3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.tittle_section p {
+  font-family: "Roboto Slab";
+  font-size: 16px;
+}
+.flex_center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  background: url(../img/background/header_bg.png);
+  background-size: cover;
+  height: 700px;
+  color: #ffffff;
+}
+.navigate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.navigate h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.navigate li {
+  list-style: none;
+  display: inline;
+}
+.navigate li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+  padding-left: 30px;
+}
+.head_tittle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 27%;
+}
+.head_tittle h1 {
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+}
+.head_tittle p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 30px;
+}
+.head_tittle button {
+  margin-top: 30px;
+  background: inherit;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  border: solid 2px;
+  padding: 15px 34px 15px 35px;
+}

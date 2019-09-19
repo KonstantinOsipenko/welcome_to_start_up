@@ -1,0 +1,690 @@
+.flex_column_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tittle_section h3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.tittle_section p {
+  font-family: "Roboto Slab";
+  font-size: 16px;
+}
+.flex_center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  background: url(../img/background/header_bg.png);
+  background-size: cover;
+  height: 700px;
+  color: #ffffff;
+}
+.navigate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.navigate h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.navigate li {
+  list-style: none;
+  display: inline;
+}
+.navigate li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+  padding-left: 30px;
+}
+.head_tittle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 27%;
+}
+.head_tittle h1 {
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+}
+.head_tittle p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 30px;
+}
+.head_tittle button {
+  margin-top: 30px;
+  background: inherit;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  border: solid 2px;
+  padding: 15px 34px 15px 35px;
+}
+.footer {
+  background-color: #c0301c;
+}
+.footer .footer_content {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+.footer .footer_content p {
+  font-family: "Roboto Slab";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.footer .footer_content .dash {
+  width: 50px;
+  border-bottom: solid 2px #ffffff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.footer .footer_content .contact_twit_link_block a {
+  text-decoration: none;
+  margin-right: 15px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+  color: #555555;
+}
+.wrapper {
+  max-width: 1140px;
+  margin: auto;
+}
+.services {
+  margin-top: 5%;
+}
+.tittle_services_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tittle_services_block h3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.tittle_services_block p {
+  font-family: "Roboto Slab";
+  font-size: 16px;
+}
+.wrap_services__column {
+  margin-top: 70px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrap_services__column .services_block {
+  width: 33,3%;
+}
+.wrap_services__column .second_services_block {
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.wrap_services__column .img_block {
+  width: 90px;
+  height: 90px;
+  vertical-align: middle;
+}
+.wrap_services__column h3 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.wrap_services__column p {
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.about_us {
+  background-color: #f8f8f8;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.about_us .tittle_about_us_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about_us .tittle_about_us_block h3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.about_us .tittle_about_us_block p {
+  font-family: "Roboto Slab";
+  font-size: 16px;
+}
+.wrap_block__about_developer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.first_developer__block p,
+.second_developer__block p {
+  font-family: "Roboto Slab";
+  font-size: 14px;
+}
+.about_our_developer_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.about_our_developer_block p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.about_our_developer_block span {
+  font-family: "Roboto Slab";
+  font-size: 13px;
+}
+.Head_of_Ideas,
+.Front_end_Developer,
+.Lead_WordPress_Developer,
+.Sr._Web_Developer {
+  position: relative;
+}
+.block_contact_link_dev {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 263px;
+  height: 250px;
+  background-color: #555555;
+  opacity: 0;
+}
+.block_contact_link_dev a {
+  text-decoration: none;
+  margin-top: 190px;
+}
+.block_contact_link_dev a img {
+  margin-left: 10px;
+}
+.block_contact_link_dev:hover {
+  opacity: 0.5;
+  transition: 1s;
+}
+.btn_slide_left,
+.btn_slide_right {
+  position: absolute;
+  width: 35px;
+  height: 38px;
+  color: #ffffff;
+  border: none;
+}
+.btn_slide_left {
+  top: 35%;
+  background-color: #555555;
+  opacity: 0.2;
+}
+.btn_slide_right {
+  bottom: 55%;
+  background-color: #555555;
+  opacity: 0.2;
+  left: 87%;
+}
+.btn_slide_right:active {
+  background-color: #c0301c;
+  opacity: 0.9;
+}
+.btn_slide_left:active {
+  background-color: #c0301c;
+  opacity: 0.9;
+}
+.latest_work_block {
+  margin-top: 90px;
+}
+.latest_work_block .tittle_latest_works__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.latest_work_block .tittle_latest_works__block h3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.btn_nav__latest_work_block {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 70px;
+  border: none;
+  background: inherit;
+  font-family: "Roboto Slab";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: inherit;
+}
+.btn_nav__latest_work_block:focus {
+  color: #c0301c;
+  outline: none;
+}
+.gallery_latest_work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gallery_latest_work .gallery__work_link {
+  position: relative;
+}
+.gallery_latest_work .gallery__work_link .link_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 360px;
+  height: 320px;
+  background-color: #c0301c;
+  opacity: 0;
+  top: 10px;
+  left: 10px;
+}
+.gallery_latest_work .gallery__work_link .link_block h3 {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 18px;
+  margin: 0;
+}
+.gallery_latest_work .gallery__work_link .link_block p {
+  color: #ffffff;
+  font-family: "Roboto Slab";
+  font-size: 12px;
+}
+.gallery_latest_work .gallery__work_link .link_block .btn_link_gallery_work {
+  color: #c0301c;
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  background-color: #ffffff;
+  border: none;
+  padding: 15px 39px 13px 20px;
+}
+.gallery_latest_work .link_block:hover {
+  opacity: 0.7;
+  transition: 1s;
+}
+.gallery_latest_work .first_img_block,
+.gallery_latest_work .second_img_block,
+.gallery_latest_work .third_img_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.gallery_latest_work .first_img_block img,
+.gallery_latest_work .second_img_block img,
+.gallery_latest_work .third_img_block img {
+  margin: 10px;
+}
+.talk_about_projekt {
+  margin-top: 85px;
+  height: 370px;
+  background: url(../img/background/talk_about.png);
+  color: #ffffff;
+}
+.talk_about_projekt .wrap_tittle_talk_about_projekt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.talk_about_projekt .wrap_tittle_talk_about_projekt .tittle_talk_about_projekt {
+  padding-top: 90px;
+}
+.talk_about_projekt .wrap_tittle_talk_about_projekt .tittle_talk_about_projekt h3 {
+  margin: 5px;
+}
+.talk_about_projekt .wrap_tittle_talk_about_projekt .btn_lets_talk_about_work {
+  color: inherit;
+  font-family: "Roboto Slab";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 44px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  border: 2px solid #ffffff;
+  background: inherit;
+  margin-top: 55px;
+}
+.tittle_recent_block {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tittle_recent_block h3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.tittle_recent_block p {
+  font-family: "Roboto Slab";
+  font-size: 16px;
+}
+.wrapp_content_block__recent_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.wrapp_content_block__recent_block .first_content_blcok,
+.wrapp_content_block__recent_block .second_content_blcok {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.discription___first_content_block,
+.discription___second_content_block {
+  padding-left: 60px;
+}
+.discription___first_content_block .first_item_block,
+.discription___second_content_block .first_item_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+.discription___first_content_block .first_item_block .tittle_date,
+.discription___second_content_block .first_item_block .tittle_date {
+  padding-left: 28px;
+}
+.discription___first_content_block .first_item_block h3,
+.discription___second_content_block .first_item_block h3 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.discription___first_content_block .first_item_block p,
+.discription___second_content_block .first_item_block p {
+  font-family: "Roboto Slab";
+  font-size: 13px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 24px;
+}
+.discription___first_content_block .tittle_date h3 {
+  color: #c0301c;
+}
+.discription___first_content_block .tittle_date .colortext {
+  padding: 0;
+  color: #c0301c;
+}
+.content_first_block,
+.content_second_block {
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.btn__first_content_blcok,
+.btn__second_content_blcok {
+  font-family: "Roboto Slab";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  border: none;
+  background: inherit;
+  color: #777777;
+}
+.btn__first_content_blcok {
+  color: #c0301c;
+}
+.first_content_blcok {
+  margin-top: 70px;
+  border-bottom: solid 1px #dddddd;
+  padding-bottom: 37px;
+}
+.second_content_blcok {
+  padding-top: 37px;
+}
+.client_block {
+  margin-top: 100px;
+  background-color: #f8f8f8;
+}
+.item_client__block {
+  padding-top: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item_client__block .client_logo_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.item_client__block .client_logo_block img {
+  padding-left: 60px;
+}
+.item_client__block p {
+  font-family: "Roboto Slab";
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 30px;
+  text-align: center;
+}
+.item_client__block p h4 {
+  font-family: "Roboto Slab";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 30px;
+}
+.radio_btn__client_block {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #dddddd;
+  border: none;
+  margin-left: 7px;
+  margin-bottom: 100px;
+}
+.radio_btn__client_block:hover {
+  background-color: #c0301c;
+  transition: 1s;
+}
+.tittle_get_in_touch_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tittle_get_in_touch_block h3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.tittle_get_in_touch_block p {
+  font-family: "Roboto Slab";
+  font-size: 16px;
+}
+.cotact_form_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.contact_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+}
+.contact_block .address,
+.contact_block .hotline,
+.contact_block .email {
+  margin-top: 5px;
+}
+.contact_block .address p,
+.contact_block .hotline p,
+.contact_block .email p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 30px;
+  text-transform: uppercase;
+  position: relative;
+}
+.contact_block .address a,
+.contact_block .hotline a,
+.contact_block .email a {
+  color: #555555;
+  font-family: "Roboto Slab";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+}
+.contact_block .adress_marker:before {
+  content: url(../img/icon/fa-map-marker.png);
+  position: absolute;
+  right: 220px;
+}
+.contact_block .hotline_marker:before {
+  content: url(../img/icon/fa-mobile-phone.png);
+  position: absolute;
+  right: 175px;
+  top: 5px;
+}
+.contact_block .mail_marker:before {
+  content: url(../img/icon/fa-envelope-o.png);
+  position: absolute;
+  right: 165px;
+}
+.contact_form {
+  color: #555555;
+  margin-bottom: 95px;
+}
+.contact_form .name_field,
+.contact_form .mail_field,
+.contact_form .subject_field,
+.contact_form .company_name_field {
+  width: 330px;
+  height: 45px;
+  padding-left: 17px;
+  border: 1px solid #555555;
+  color: #555555;
+  font-family: "Roboto Slab";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.contact_form .mail_field,
+.contact_form .company_name_field {
+  margin-left: 30px;
+}
+.contact_form .subject_field,
+.contact_form .company_name_field {
+  margin-top: 21px;
+  margin-bottom: 21px;
+}
+.contact_form .comment_field {
+  width: 730px;
+  height: 104px;
+  border: 1px solid #555555;
+  margin-bottom: 21px;
+  color: #555555;
+  font-family: "Roboto Slab";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding-left: 17px;
+}
+.contact_form .btn_form_send {
+  font-family: "Roboto Slab";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  background: inherit;
+  border: 1px solid #555555;
+  padding: 17px 36px;
+  color: #555555;
+}
+.contact_form input,
+.contact_form .btn_form_send:focus {
+  outline-color: #c0301c;
+}
+.contact_form .btn_block_form {
+  display: flex;
+  flex-direction: row;
+}
+.contact_form .btn_block_form p {
+  margin-left: 35px;
+}
+.contact_form .btn_block_form p:before {
+  content: "*";
+  color: #c0301c;
+}

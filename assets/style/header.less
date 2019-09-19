@@ -1,0 +1,63 @@
+@import url(mixin.less);
+@import url(variable.less);
+.head{
+	background: url(../img/background/header_bg.png);
+	background-size: cover;
+	height: 700px;
+	color: #ffffff;
+}
+.navigate{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	h3{
+		font-family: Montserrat;
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 36px;
+	}
+	li{
+		list-style: none;
+		display: inline;
+	a{	color: #ffffff;
+		text-decoration: none;
+		font-family: Montserrat;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 0.35px;
+		padding-left: 30px;
+	}
+}
+}
+.head_tittle{
+	.flex_column_center;
+	position: relative;
+	top: 27%;
+	h1{
+		font-family: Montserrat;
+		font-size: 48px;
+		font-weight: 400;
+		text-transform: uppercase;
+		margin: 0;
+	}
+	p{
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 24px;
+		margin-top: 30px;
+	}
+	button{
+		margin-top: 30px;
+		background: inherit;
+		color: #ffffff;
+		font-family: Montserrat;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		text-transform: uppercase;
+		border: solid 2px;
+		padding: 15px 34px 15px 35px;
+	}
+}

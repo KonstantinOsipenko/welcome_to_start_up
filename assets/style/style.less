@@ -1,0 +1,474 @@
+@import url(mixin.less);
+@import url(variable.less);
+@import url(header.less);
+@import url(footer.less);
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto Slab', serif;
+	color: #555555;
+}
+.wrapper{
+	max-width: 1140px;
+	margin: auto;
+}
+.services{
+	margin-top: 5%;
+}
+.tittle_services_block{
+	.flex_column_center;
+	.tittle_section;
+}
+.wrap_services__column{
+	margin-top: 70px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	.services_block{
+		width: 33,3%;
+	}
+	.second_services_block{
+		margin-left: 45px;
+		margin-right: 45px;
+	}
+	.img_block{
+		width: 90px;
+		height: 90px;
+		vertical-align: middle;
+	}
+	h3{
+		font-family: Montserrat;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 24px;
+		text-transform: uppercase;
+	}
+	p{
+		font-family: "Roboto Slab";
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 24px;
+		text-align: left;
+	}
+}
+.about_us{
+	background-color: #f8f8f8;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	.tittle_about_us_block{
+	.flex_column_center;
+	.tittle_section;
+	}
+}
+.wrap_block__about_developer{
+	.flex_column_center;
+	flex-direction: row;
+}
+.first_developer__block,.second_developer__block{
+	p{
+		font-family: "Roboto Slab";
+		font-size: 14px;
+	}
+}
+.about_our_developer_block{
+	.flex_column_center;
+	flex-direction: row;
+	justify-content: space-between;
+	p{
+		font-family: Montserrat;
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 24px;
+		text-transform: uppercase;
+	}
+	span{
+		font-family: "Roboto Slab";
+		font-size: 13px;
+	}
+}
+.Head_of_Ideas,.Front_end_Developer,.Lead_WordPress_Developer,.Sr._Web_Developer{
+	position: relative;
+}
+.block_contact_link_dev{
+	.flex_center;
+	position: absolute;
+	width: 263px;
+	height: 250px;
+	background-color: #555555;
+	opacity: 0;
+	a{
+		text-decoration: none;
+		margin-top: 190px;
+		img{
+			margin-left: 10px;
+		}
+	}
+}
+.block_contact_link_dev:hover{
+	opacity: 0.5;
+	transition: 1s;
+}
+.btn_slide_left,.btn_slide_right{
+	position: absolute;
+	width: 35px;
+	height: 38px;
+	color: #ffffff;
+	border: none;
+}
+.btn_slide_left{
+	top: 35%;
+	background-color: #555555;
+	opacity: 0.2;
+}
+.btn_slide_right{
+	bottom: 55%;
+    background-color: #555555;
+    opacity: 0.2;
+    left: 87%;
+}
+.btn_slide_right:active{
+	background-color: #c0301c;
+	opacity: 0.9;
+}
+.btn_slide_left:active{
+	background-color: #c0301c;
+	opacity: 0.9;
+}
+
+.latest_work_block{
+	margin-top: 90px;
+	.tittle_latest_works__block{
+		.flex_column_center;
+		h3{
+			font-family: Montserrat;
+			font-size: 20px;
+			font-weight: 400;
+			line-height: 24px;
+			text-transform: uppercase;
+		}
+	}
+}
+.btn_nav__latest_work_block{
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-bottom: 70px;
+	border: none;
+	background: inherit;
+	font-family: "Roboto Slab";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: inherit;
+}
+.btn_nav__latest_work_block:focus{
+	color: #c0301c;
+	outline: none;
+
+}
+.gallery_latest_work{
+	.gallery__work_link{
+		position: relative;
+		.link_block{
+			.flex_column_center;
+			position: absolute;
+			width: 360px;
+			height: 320px;
+			background-color: #c0301c;
+			opacity: 0;
+			top: 10px;
+			left: 10px;
+			h3{
+				color: #ffffff;
+				font-family: Montserrat;
+				font-size: 18px;
+				margin: 0;
+			}
+			p{
+				color: #ffffff;
+				font-family: "Roboto Slab";
+				font-size: 12px;
+			}
+			.btn_link_gallery_work{
+				color: #c0301c;
+				font-family: "Roboto Slab";
+				font-size: 14px;
+				background-color: #ffffff;
+				border: none;
+				padding: 15px 39px 13px 20px;
+			}
+		}
+	}
+	.link_block:hover{
+		opacity: 0.7;
+		transition: 1s;
+	}
+	.flex_column_center;
+	.first_img_block,.second_img_block,.third_img_block{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		img{
+			margin: 10px;
+		}
+	}
+}
+.talk_about_projekt{
+	margin-top: 85px;
+	height: 370px;
+	background: url(../img/background/talk_about.png);
+	color: #ffffff;
+	.wrap_tittle_talk_about_projekt{
+		.flex_column_center;
+		.tittle_talk_about_projekt{
+			padding-top: 90px;
+			h3{
+				margin: 5px;
+			}
+		}
+		.btn_lets_talk_about_work{
+		color: inherit;
+		font-family: "Roboto Slab";
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 44px;
+		text-transform: uppercase;
+		border-radius: 2px;
+		border: 2px solid #ffffff;
+		background: inherit;
+		margin-top: 55px;
+		}
+	}
+}
+.tittle_recent_block{
+	margin-top: 80px;
+	.flex_column_center;
+	.tittle_section;
+}
+.wrapp_content_block__recent_block{
+	.flex_column_center;
+	justify-content: space-around;
+	.first_content_blcok,.second_content_blcok{
+		.flex_center;
+		justify-content: space-around;
+	}
+}
+.discription___first_content_block,.discription___second_content_block{
+	padding-left: 60px;
+	.first_item_block{
+		.flex_center;
+		.tittle_date{
+			padding-left: 28px;
+		}
+		justify-content: flex-start;
+		h3{
+			font-family: Montserrat;
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 24px;
+			text-transform: uppercase;
+		}
+		p{
+			font-family: "Roboto Slab";
+			font-size: 13px;
+			font-weight: 400;
+			font-style: italic;
+			line-height: 24px;
+		}
+	}
+}
+.discription___first_content_block{
+	.tittle_date{
+		h3{
+			color: #c0301c;
+		}
+		.colortext{
+			padding: 0;
+			color: #c0301c;
+		}
+	}
+}
+.content_first_block,.content_second_block{
+	font-family: "Roboto Slab";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.btn__first_content_blcok,.btn__second_content_blcok{
+	font-family: "Roboto Slab";
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	letter-spacing: 1.3px;
+	border: none;
+	background: inherit;
+	color: #777777;
+}
+.btn__first_content_blcok,{
+	color: #c0301c;
+}
+.first_content_blcok{
+	margin-top: 70px;
+	border-bottom: solid 1px #dddddd;
+	padding-bottom: 37px;
+}
+.second_content_blcok{
+	padding-top: 37px;
+}
+.client_block{
+	margin-top: 100px;
+	background-color: #f8f8f8;
+}
+.item_client__block{
+	padding-top: 110px;
+	.flex_column_center;
+	.client_logo_block{
+		.flex_center;
+		img{
+		padding-left: 60px;
+		}
+	}
+	p{
+		font-family: "Roboto Slab";
+		font-size: 18px;
+		font-weight: 400;
+		font-style: italic;
+		line-height: 30px;
+		text-align: center;
+		h4{
+			font-family: "Roboto Slab";
+			font-size: 20px;
+			font-weight: 400;
+			font-style: italic;
+			line-height: 30px;
+		}
+	}
+}
+.radio_btn__client_block{
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	background-color: #dddddd;;
+	border: none;
+	margin-left: 7px;
+	margin-bottom: 100px;
+}
+.radio_btn__client_block:hover{
+	background-color: #c0301c;
+	transition: 1s;
+}
+.tittle_get_in_touch_block{
+	.flex_column_center;
+	.tittle_section;
+}
+.cotact_form_block{
+	.flex_center;
+	justify-content: space-around;
+	align-items: baseline;
+}
+.contact_block{
+	.flex_column_center;
+	align-items: flex-start;
+	.address,.hotline,.email{
+		margin-top: 5px;
+		p{
+			font-family: Montserrat;
+			font-size: 14px;
+			font-weight: 900;
+			line-height: 30px;
+			text-transform: uppercase;
+			position: relative;
+		}
+		a{
+			color: #555555;
+			font-family: "Roboto Slab";
+			font-size: 12px;
+			font-weight: 400;
+			line-height: 20px;
+			text-decoration: none;
+		}
+	}
+	.adress_marker:before{
+		content: url(../img/icon/fa-map-marker.png);
+		position: absolute;
+		right: 220px;
+	}
+	.hotline_marker:before{
+		content: url(../img/icon/fa-mobile-phone.png);
+		position: absolute;
+		right: 175px;
+		top: 5px;
+	}
+	.mail_marker:before{
+		content: url(../img/icon/fa-envelope-o.png);
+		position: absolute;
+		right: 165px;
+	}
+}
+.contact_form{
+	color: #555555;
+	margin-bottom: 95px;
+	.name_field,.mail_field,.subject_field,.company_name_field{
+		width: 330px;
+		height: 45px;
+		padding-left: 17px;
+		border: 1px solid #555555;
+		color: #555555;
+		font-family: "Roboto Slab";
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 20px;
+		text-transform: uppercase;
+	}
+	.mail_field,.company_name_field{
+		margin-left: 30px;
+	}
+	.subject_field,.company_name_field{
+		margin-top: 21px;
+		margin-bottom: 21px;
+	}
+	.comment_field{
+		width: 730px;
+		height: 104px;
+		border: 1px solid #555555;
+		margin-bottom: 21px;
+		color: #555555;
+		font-family: "Roboto Slab";
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 20px;
+		text-transform: uppercase;
+		padding-left: 17px;
+	}
+	.btn_form_send{
+		font-family: "Roboto Slab";
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 20px;
+		text-transform: uppercase;
+		letter-spacing: 0.6px;
+		background: inherit;
+		border: 1px solid #555555;
+		padding: 17px 36px;
+		color: #555555;
+	}
+	input,.btn_form_send:focus{
+ 		outline-color: #c0301c;
+	}
+	.btn_block_form{
+		display: flex;
+		flex-direction: row;
+		p{
+			margin-left: 35px;
+		}
+		p:before{
+			content: "*";
+			color: #c0301c;
+		}
+	}
+}
